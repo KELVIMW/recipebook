@@ -3,7 +3,7 @@
 Aluno: Kelvin Wellington Ribeiro Mora<br>
 RA: 1460481711090 <br>
 Profº Fabrício Galende<br>
-Vídeo: https://youtu.be/RYWjqFJ27C8 <br>
+Vídeo: https://youtu.be/VXTJbDzvC-k <br>
 
 Ferramentas utilizadas:
   - MySQL
