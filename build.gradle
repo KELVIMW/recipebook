@@ -1,0 +1,29 @@
+plugins {
+    id 'war'
+    id 'org.gretty' version '3.0.3' 
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+   providedCompile 'javax.servlet:javax.servlet-api:3.1.0'
+   testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.6.2'
+    implementation 'org.hibernate:hibernate-core:5.4.23.Final'
+    implementation "mysql:mysql-connector-java:5.1.49"
+}
+
+repositories {
+   
+    jcenter()
+}
+
+test {
+    
+    useJUnitPlatform()
+}
+
+gretty {
+  servletContainer = 'jetty9.3'
+}
